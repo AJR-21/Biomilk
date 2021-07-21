@@ -1,0 +1,28 @@
+/*estilo css para la página Nosotros*/
+.cuerpo {
+    display: block;
+    height: auto;
+}
+.cuerpo div {
+    width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+.cuerpo div h1{
+    text-align: center;
+    color: green;
+}
+.cuerpo div p {
+    text-align: center;
+    color: var(--color2);
+}
+.cuerpo div li {
+    color: var(--color2);
+}
+
+@media only screen  and (max-width: 600px){
+    .cuerpo div {
+        width: 400px;
+    }
+}
