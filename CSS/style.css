@@ -139,6 +139,7 @@ nav li a:hover{
     background-color: white;
     color: red;
 }
+/*diseño del index la parte de las imágenes*/
 .cuerpo {
     display: grid;
     grid-template-columns: auto auto;
@@ -158,18 +159,74 @@ nav li a:hover{
     box-shadow: 8px 10px 10px var(--color6);
 }
 .Nombre {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
     margin-top: 10px;
-    padding-top: 10px;
+    padding: 10px;
 }
 .Nombre img{
     width: 200px;
     height: auto;
-    margin-left: 15%;
     transition: transform 2s;
 }
 .Nombre img:hover {
     transform: scale(1.3);
     cursor: pointer;
+}
+/*Diseño de nosotros*/
+.titulo {
+    display: grid;
+    grid-template-columns: auto;
+    justify-content: center;
+}
+.titulo img {
+    width: 300px;
+}
+/*Diseño de los productos*/
+.bloque {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 40px;
+    justify-content: center;
+    padding: 30px;
+}
+.contenedor {
+    width: 300px;
+    height: auto;
+}
+.productos img{
+    width: 300px;
+    height: auto;
+    border: 1px solid var(--color3);
+    border-radius: 20px;
+    box-shadow: 8px 10px 10px var(--color6);
+    transition: transform 2s;
+}
+.productos img:hover {
+    transform: rotateY(45deg);
+}
+.descripcion p {
+    text-align: center;
+    font-size: 0.875em;
+    color: var(--color1);
+}
+.descripcion b {
+    color: green;
+}
+.boton {
+    margin-left: 33%;
+    width: 100px;
+    height: 35px;
+    font-weight: bold;
+    border-radius: 20px;
+    background-image: linear-gradient(to bottom, green, rgb(10, 230, 10));
+    color: white;
+}
+.boton:hover {
+    cursor: pointer;
+    transform: scale(1.3);
+    transition: 2s;
 }
 footer {
     clear: both;
