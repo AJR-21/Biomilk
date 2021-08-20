@@ -182,6 +182,11 @@ nav li a:hover{
 }
 .titulo img {
     width: 300px;
+    height: auto;
+    transition: transform 2s;
+}
+.titulo img:hover {
+    transform: scale(1.3);
 }
 /*Diseño de los productos*/
 .bloque {
@@ -267,5 +272,19 @@ footer p {
     }
     nav li a{
         width:  100%;
+    }
+    .cuerpo {
+        grid-template-columns: auto;
+    }
+    .bloque {
+        grid-template-columns: auto;
+    }
+    .productos img, .contenedor, .titulo img{
+        width: 200px;
+    }
+    .boton {
+        margin-left: 29%;
+        width: 80px;
+        height: 30px;
     }
 }
