@@ -14,7 +14,7 @@ body {
 header {
     height: 450px;
     margin-top: 46px;
-    background-image: linear-gradient(to bottom, white, var(--color5));
+    background-image: linear-gradient(to bottom, var(--color5), white 80%);
     /*background-color: #eafffa;*/
     /*background-image: url('../img/fondo5.jpg');*/
     background-repeat: no-repeat;
