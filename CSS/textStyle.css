@@ -9,10 +9,7 @@
     margin-left: auto;
     margin-right: auto;
 }
-.cuerpo div h1{
-    text-align: center;
-    color: green;
-}
+
 .cuerpo div p {
     text-align: center;
     color: var(--color2);
@@ -20,7 +17,15 @@
 .cuerpo div li {
     color: var(--color2);
 }
-
+/*Diseño de la historia*/
+.titulo H2 {
+    color: green;
+}
+#unmsm {
+    text-decoration: none;
+    color: rgb(138, 6, 6);
+    font-weight: bold;
+}
 @media only screen  and (max-width: 600px){
     .cuerpo div {
         width: 350px;
